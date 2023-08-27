@@ -1,0 +1,68 @@
+/* Styling for the registration container */
+.register {
+    max-width: 400px;
+    margin: 50px auto 0; /* Add margin-top of 50px */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the header */
+  .register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for form elements */
+  .register form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling for each input field container */
+  .register div {
+    margin-bottom: 15px;
+    display: flex; /* Display inputs in one line */
+    align-items: center; /* Vertically center inputs */
+  }
+  
+  
+  .register label {
+    font-weight: bold;
+    margin-right: 10px; 
+    flex: 1; 
+  }
+  
+  /* Styling for input fields */
+  .register input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    flex: 2; 
+  }
+  
+  /* Styling for the submit button */
+  .register button {
+    padding: 10px 20px;
+    background-color:gray;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register button:hover {
+    background-color:black;
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 768px) {
+    .register {
+      max-width: 500px;
+    }
+  }
+  

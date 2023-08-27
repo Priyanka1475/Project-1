@@ -1,0 +1,43 @@
+.header {
+    background-color: #433e3e; /* Dark gray */
+    color: #ffffff; /* White */
+    padding: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-text {
+    font-size: 30px; /* Increased font size */
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-list li {
+    padding: 0.5rem;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: transform 0.2s;
+    font-size: 20px; /* Add transition for hover effect */
+  }
+  
+  .nav-list li a:hover {
+    text-decoration: underline;
+    transform: scale(1.1); /* Increase size on hover */
+    z-index: 1; /* Bring text to the front on hover */
+  }
+  
+  
+  
+  
