@@ -4,6 +4,7 @@ const userModel = require("../models/userModel");
 
 const Authenticate = async (req, res, next) => {
   try {
+    console.log(req.cookies);
     const token = req.cookies.jwtoken;
     console.log(token);
     console.log(process.env.SECRET_KEY); 
